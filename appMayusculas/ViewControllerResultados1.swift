@@ -48,8 +48,6 @@ class ViewControllerResultados1: UIViewController {
                 arrImages[n]?.image = UIImage(named: "bad")
             }
         }
-        
-                
     }
     
 

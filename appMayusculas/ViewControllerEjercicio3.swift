@@ -24,6 +24,9 @@ class ViewControllerEjercicio3: UIViewController {
     var arrReglasMinusculas : NSArray!
     var arrSoluciones = [String]()
     
+    var arraySegmentControl =   [UISegmentedControl]()
+    var arrOpcionCorrecta = [String]()
+    
     
         override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,42 +43,18 @@ class ViewControllerEjercicio3: UIViewController {
         scRespuesta1.selectedSegmentIndex = UISegmentedControl.noSegment
         scRespuesta2.selectedSegmentIndex = UISegmentedControl.noSegment
         scRespuesta3.selectedSegmentIndex = UISegmentedControl.noSegment
-            
+        
+        print("Selected index")
+        print(scRespuesta1.selectedSegmentIndex)
     // Place the data in random form 2Uppercase and 2 Lowercase
     
     // DECIDE IF 2 PROBLEMS  OF 2 RULES: MAKE IT RANDOM
-    // 2 PROBLEMS IPPERCASE AND 1 LOWERCASE   
-    
-    /*
-    // This is the first element that is a dictionary
-    // Here we make a loop to select from different rules if we want
-    //FIRST LOOP The array will be the length of arrReglas
-    var dic = arrReglasMayusculas[0] as! NSDictionary
-    //cargar opcional porque trae de xml los datos
-    // this is the the array from the key
-    var arrEjercicios = dic["ejerciciosFacil"] as! NSArray
-    
-    //SECOND LOOP From here we start the loop this are the exercises
-    // We make an array of labels and an array of segmented Control
-    
-    // Here we select the first ejercise, the loop is the size of arrEjercicios
-    var arrEjerciciosItem = arrEjercicios[0] as! NSArray
-    //Here we select the dictionary: This 0 doesn't change anytime
-    var dicItem = arrEjerciciosItem[0] as! NSDictionary
-    
-    lbPregunta1.text = dicItem["pregunta"] as? String
-    scRespuesta1.setTitle(dicItem["opcion1"] as? String, forSegmentAt: 0)
-    scRespuesta1.setTitle(dicItem["opcion2"] as? String, forSegmentAt: 1)
-    
-    scRespuesta1.selectedSegmentIndex = UISegmentedControl.noSegment
-    
-    // Here end of loop
-    */
+    // 2 PROBLEMS IPPERCASE AND 1 LOWERCASE  
     
     // Here we start the loops to make the random selection of the problems to solve
     // start the array to change the data of these elements
     let arrayLabels = [lPregunta1, lPregunta2, lPregunta3]
-    let arraySegmentControl = [scRespuesta1, scRespuesta2, scRespuesta3]
+    arraySegmentControl = [scRespuesta1, scRespuesta2, scRespuesta3]
     
     // This is to select random order
     // Place later
@@ -108,10 +87,11 @@ class ViewControllerEjercicio3: UIViewController {
          print(Resp)
         arrSoluciones.append(Resp)
         
+        arrOpcionCorrecta.append(dicItem["opcionCorrecta"] as! String)
         
         arrayLabels[n]?.text = dicItem["pregunta"] as? String
-        arraySegmentControl[n]?.setTitle(dicItem["opcion1"] as? String, forSegmentAt: 0)
-        arraySegmentControl[n]?.setTitle(dicItem["opcion2"] as? String, forSegmentAt: 1)
+        arraySegmentControl[n].setTitle(dicItem["opcion1"] as? String, forSegmentAt: 0)
+        arraySegmentControl[n].setTitle(dicItem["opcion2"] as? String, forSegmentAt: 1)
     }
             
             let dic2 = arrReglasMinusculas[0] as! NSDictionary
@@ -126,13 +106,55 @@ class ViewControllerEjercicio3: UIViewController {
             let Resp2 = dicItem2["respuesta"] as! String
             
             arrSoluciones.append(Resp2)
+            arrOpcionCorrecta.append(dicItem2["opcionCorrecta"] as! String)
             
             arrayLabels[2]?.text = dicItem2["pregunta"] as? String
-            arraySegmentControl[2]?.setTitle(dicItem2["opcion1"] as? String, forSegmentAt: 0)
-            arraySegmentControl[2]?.setTitle(dicItem2["opcion2"] as? String, forSegmentAt: 1)
+            arraySegmentControl[2].setTitle(dicItem2["opcion1"] as? String, forSegmentAt: 0)
+            arraySegmentControl[2].setTitle(dicItem2["opcion2"] as? String, forSegmentAt: 1)
             
     }
     
+    
+    func checkIfAnswers(arrAnswers:[UISegmentedControl], arrSolutions: [String]) -> [Bool]{
+        var answerArray = Array(repeating: false, count: 3)
+        for n in 0..<arrAnswers.count {
+            if(arrAnswers[n].selectedSegmentIndex == 0 && arrAnswers[n].titleForSegment(at: 0) == arrSolutions[n]){// Get content of segmented title
+                answerArray[n] = true
+            }
+            if(arrAnswers[n].selectedSegmentIndex == 1 && arrAnswers[n].titleForSegment(at: 1) == arrSolutions[n]){// Get content of segmented title
+                answerArray[n] = true
+            }
+        }
+        return answerArray
+    }
+    
+    
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+
+        if identifier == "Results" {
+            var performSegue = true
+            // Check indexes of all segmented control
+            for n in 0..<arraySegmentControl.count {
+                if(arraySegmentControl[n].selectedSegmentIndex > 1 || arraySegmentControl[n].selectedSegmentIndex < 0){
+                    performSegue = false
+                }
+            }
+            
+            // Place an alert
+            print("Value of segue")
+           print(performSegue)
+            if(!performSegue){
+                       let alertController = UIAlertController(title: "Cuidado", message:
+                                             "Debes completar todos los campos del ejercicio", preferredStyle: .alert)
+                                         alertController.addAction(UIAlertAction(title: "OK", style: .default))
+                                         self.present(alertController, animated: true, completion: nil)
+                   }
+            
+            return performSegue
+        }
+
+        return true
+    }
 
     
     // MARK: - Navigation
@@ -147,6 +169,12 @@ class ViewControllerEjercicio3: UIViewController {
         Respuesta.Respuesta1 = arrSoluciones[0]
         Respuesta.Respuesta2 = arrSoluciones[1]
         Respuesta.Respuesta3 = arrSoluciones[2]
+        
+        
+        // Send the data to verify which exercise was correct
+        let arrCorrectIncorrect = checkIfAnswers(arrAnswers: arraySegmentControl, arrSolutions: arrOpcionCorrecta)
+        print(arrCorrectIncorrect)
+        Respuesta.arrAnswers = arrCorrectIncorrect
     }
     
 

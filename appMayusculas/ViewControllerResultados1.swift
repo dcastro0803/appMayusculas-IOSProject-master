@@ -21,6 +21,7 @@ class ViewControllerResultados1: UIViewController {
     
     @IBOutlet weak var imgCorrectIncorrect3: UIImageView!
     
+    @IBOutlet weak var btnSiguiente: UIButton!
     
     
     var Respuesta1 : String!
@@ -36,6 +37,8 @@ class ViewControllerResultados1: UIViewController {
         lResp2.text = Respuesta2
         lResp3.text = Respuesta3
         imgCorrectIncorrect1.image = UIImage(named: "good")
+        
+        btnSiguiente.applyDesignButtons()
         
         //imgCorrectIncorrect1.image = UIImage(named: "checkmark")
         

@@ -18,6 +18,7 @@ class ViewControllerEjercicio3: UIViewController {
     @IBOutlet weak var scRespuesta2: UISegmentedControl!
     @IBOutlet weak var scRespuesta3: UISegmentedControl!
     
+    @IBOutlet weak var btnRevisar: UIButton!
     
     
     var arrReglasMayusculas : NSArray!
@@ -39,6 +40,8 @@ class ViewControllerEjercicio3: UIViewController {
             pathReglas = Bundle.main.path(forResource: "ReglasMinusculas", ofType: "plist")
             arrReglasMinusculas = NSArray(contentsOfFile: pathReglas!)
         // Do any additional setup after loading the view.
+        btnRevisar.applyDesignButtons()
+            
             
         scRespuesta1.selectedSegmentIndex = UISegmentedControl.noSegment
         scRespuesta2.selectedSegmentIndex = UISegmentedControl.noSegment

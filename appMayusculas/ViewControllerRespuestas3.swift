@@ -21,6 +21,7 @@ class ViewControllerRespuestas3: UIViewController {
     
     @IBOutlet weak var imgCorrectIncorrect3: UIImageView!
     
+    @IBOutlet weak var btnSiguiente: UIButton!
     
     
     var Respuesta1 : String!
@@ -37,7 +38,7 @@ class ViewControllerRespuestas3: UIViewController {
         lResp2.text = Respuesta2
         lResp3.text = Respuesta3
         // Do any additional setup after loading the view.
-        
+        btnSiguiente.applyDesignButtons()
         
         let arrImages = [imgCorrectIncorrect1,imgCorrectIncorrect2,imgCorrectIncorrect3]
         // Do any additional setup after loading the view.

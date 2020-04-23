@@ -14,12 +14,16 @@ class ViewControllerRespuestas2: UIViewController {
     @IBOutlet weak var lResp2: UILabel!
     @IBOutlet weak var lResp3: UILabel!
     
+    
+    @IBOutlet weak var btnSiguiente: UIButton!
+    
     var Respuesta1 : String!
     var Respuesta2 : String!
     var Respuesta3 : String!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        btnSiguiente.applyDesignButtons()
 
         // Do any additional setup after loading the view.
     }

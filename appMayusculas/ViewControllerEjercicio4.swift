@@ -14,9 +14,12 @@ class ViewControllerEjercicio4: UIViewController {
     @IBOutlet weak var lPregunta2: UILabel!
     @IBOutlet weak var lPregunta3: UILabel!
     
+    @IBOutlet weak var btnRevisar: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        btnRevisar.applyDesignButtons()
 
         // Do any additional setup after loading the view.
     }

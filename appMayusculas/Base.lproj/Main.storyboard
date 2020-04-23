@@ -144,7 +144,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M0e-wD-Mnf">
-                                <rect key="frame" x="162" y="475" width="51" height="30"/>
+                                <rect key="frame" x="16" y="475" width="343" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Revisar"/>
                                 <connections>
@@ -181,6 +181,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="xnk-UG-24a"/>
                     <connections>
+                        <outlet property="btnRevisar" destination="M0e-wD-Mnf" id="Q84-T0-Fjj"/>
                         <outlet property="lPregunta1" destination="B70-nL-fyv" id="4Dh-xP-boP"/>
                         <outlet property="lPregunta2" destination="2JS-9e-U8J" id="bSc-bl-vbJ"/>
                         <outlet property="lPregunta3" destination="xwi-0p-czD" id="hgH-Io-vQK"/>
@@ -191,7 +192,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bFC-XI-i2y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2934" y="975"/>
+            <point key="canvasLocation" x="2933.5999999999999" y="974.6626686656673"/>
         </scene>
         <!--View Controller Respuestas3-->
         <scene sceneID="eDT-Ne-Q6a">
@@ -202,7 +203,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="feL-KG-gaE">
-                                <rect key="frame" x="155" y="464" width="64" height="30"/>
+                                <rect key="frame" x="36" y="464" width="307" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Siguiente"/>
                                 <connections>
@@ -255,6 +256,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="JIu-16-Ia2"/>
                     <connections>
+                        <outlet property="btnSiguiente" destination="feL-KG-gaE" id="CIE-Ns-PqZ"/>
                         <outlet property="imgCorrectIncorrect1" destination="lNn-Pg-CsN" id="KYa-5d-Lz5"/>
                         <outlet property="imgCorrectIncorrect2" destination="MTB-kU-hce" id="xsF-jw-ea9"/>
                         <outlet property="imgCorrectIncorrect3" destination="ISq-4N-58i" id="zjL-A7-L6D"/>
@@ -304,7 +306,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KVv-Oa-S9W">
-                                <rect key="frame" x="162" y="470" width="51" height="30"/>
+                                <rect key="frame" x="16" y="421" width="343" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Revisar"/>
                                 <connections>
@@ -317,6 +319,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="8eY-PU-7GI"/>
                     <connections>
+                        <outlet property="btnRevisar" destination="KVv-Oa-S9W" id="rEf-zi-wbn"/>
                         <outlet property="lPregunta1" destination="4hD-H1-fuT" id="TLt-Jf-iVH"/>
                         <outlet property="lPregunta2" destination="Yjv-TK-jMS" id="lC1-1c-cJa"/>
                         <outlet property="lPregunta3" destination="BOG-RY-a1E" id="lwX-UC-3Ht"/>
@@ -324,7 +327,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kwl-g5-zLd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4788" y="962"/>
+            <point key="canvasLocation" x="4788" y="961.16941529235385"/>
         </scene>
         <!--View Controller Resultados4-->
         <scene sceneID="Hbr-qn-XRX">
@@ -356,7 +359,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qcP-d8-r4B">
-                                <rect key="frame" x="164" y="452" width="46" height="30"/>
+                                <rect key="frame" x="30" y="452" width="322" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                             </button>
@@ -373,6 +376,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="dWO-C3-PCM"/>
                     <connections>
+                        <outlet property="btnSiguiente" destination="qcP-d8-r4B" id="HHW-Cy-hMd"/>
                         <outlet property="lResp1" destination="WGj-g9-chN" id="EPf-sA-PoU"/>
                         <outlet property="lResp2" destination="ENS-Gq-jUt" id="3T8-TK-XX4"/>
                         <outlet property="lResp3" destination="el8-UY-FaN" id="ali-vA-OxW"/>
@@ -380,7 +384,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UuI-ki-OgH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5635" y="963"/>
+            <point key="canvasLocation" x="5634.3999999999996" y="962.96851574212906"/>
         </scene>
         <!--View Controller Ejercicio1-->
         <scene sceneID="NXW-uC-cgQ">
@@ -443,7 +447,7 @@
                                 </segments>
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vXG-z6-oXK">
-                                <rect key="frame" x="247" y="490" width="51" height="30"/>
+                                <rect key="frame" x="16" y="440" width="342" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Revisar"/>
                                 <connections>
@@ -456,6 +460,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="cyP-2z-YVI"/>
                     <connections>
+                        <outlet property="btnRevisar" destination="vXG-z6-oXK" id="auF-3J-Tna"/>
                         <outlet property="lbPregunta1" destination="OZY-ke-oVx" id="1s7-lN-3TZ"/>
                         <outlet property="lbPregunta2" destination="92x-A1-uZY" id="bHg-NC-KBT"/>
                         <outlet property="lbPregunta3" destination="KKS-Oi-13s" id="w07-JL-rEg"/>
@@ -490,14 +495,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tDa-Mn-SfT">
-                                <rect key="frame" x="51" y="470" width="64" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Siguiente"/>
-                                <connections>
-                                    <segue destination="Rqb-p2-XN4" kind="show" id="TWu-aA-088"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xcM-uG-cfg">
                                 <rect key="frame" x="51" y="195" width="205" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -524,12 +521,21 @@
                                 <rect key="frame" x="277" y="346" width="80" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tDa-Mn-SfT">
+                                <rect key="frame" x="43" y="452" width="297" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Siguiente"/>
+                                <connections>
+                                    <segue destination="Rqb-p2-XN4" kind="show" id="TWu-aA-088"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="oXh-aE-7fo"/>
                     </view>
                     <navigationItem key="navigationItem" id="bHP-zE-D3x"/>
                     <connections>
+                        <outlet property="btnSiguiente" destination="tDa-Mn-SfT" id="Zh5-pb-3UA"/>
                         <outlet property="imgCorrectIncorrect1" destination="2aH-n9-cRl" id="Awm-uk-CTS"/>
                         <outlet property="imgCorrectIncorrect2" destination="Gek-jk-exK" id="bgg-sY-mKS"/>
                         <outlet property="imgCorrectIncorrect3" destination="j3R-27-bf5" id="QAq-Qn-quG"/>
@@ -557,14 +563,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oYG-Jw-qcY">
-                                <rect key="frame" x="162" y="453" width="51" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Revisar"/>
-                                <connections>
-                                    <segue destination="7ea-oi-KPx" kind="show" id="7Xk-qj-aP6"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nombre:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yKU-Uf-cKR">
                                 <rect key="frame" x="16" y="142" width="186" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -586,12 +584,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oYG-Jw-qcY">
+                                <rect key="frame" x="16" y="451" width="328" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Revisar"/>
+                                <connections>
+                                    <segue destination="7ea-oi-KPx" kind="show" id="7Xk-qj-aP6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="3jD-IU-0yD"/>
                     </view>
                     <navigationItem key="navigationItem" id="NOo-kh-2rD"/>
                     <connections>
+                        <outlet property="btnRevisar" destination="oYG-Jw-qcY" id="Ra8-Bd-uEW"/>
                         <outlet property="lPregunta1" destination="yKU-Uf-cKR" id="ZUa-9e-qG2"/>
                         <outlet property="lPregunta2" destination="89f-jC-YRS" id="hSW-aj-Lid"/>
                         <outlet property="lPregunta3" destination="RKB-PZ-HiO" id="il4-kO-12C"/>
@@ -638,7 +645,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ax6-2Q-j2j">
-                                <rect key="frame" x="164" y="468" width="46" height="36"/>
+                                <rect key="frame" x="16" y="433" width="333" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
@@ -651,6 +658,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="Pms-al-ocH"/>
                     <connections>
+                        <outlet property="btnSiguiente" destination="ax6-2Q-j2j" id="bB7-cE-9EN"/>
                         <outlet property="lResp1" destination="hP6-un-5du" id="8gR-id-YGP"/>
                         <outlet property="lResp2" destination="DZy-By-R95" id="3o6-aQ-cUc"/>
                         <outlet property="lResp3" destination="Wvu-e7-kWW" id="uAM-iK-3wa"/>

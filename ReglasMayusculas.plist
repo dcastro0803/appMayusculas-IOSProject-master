@@ -10,7 +10,7 @@
 		<key>descripcion</key>
 		<string>Los nombres propios</string>
 		<key>tip</key>
-		<string>Recuerda que los nombres propios de las personas se escriben con MAYSUCULA al principio.</string>
+		<string>Recuerda que los nombres propios de las personas se escriben con MAYÚSCULA al principio.</string>
 		<key>ejemplo1</key>
 		<string>Marcos</string>
 		<key>ejemplo2</key>
@@ -61,9 +61,9 @@
 				</dict>
 				<dict>
 					<key>pregunta</key>
-					<string>________ està caminando.</string>
+					<string>________ está caminando.</string>
 					<key>respuesta</key>
-					<string>Pedro esta caminando.</string>
+					<string>Pedro está caminando.</string>
 					<key>opcion1</key>
 					<string>Pedro</string>
 					<key>opcion2</key>
@@ -82,7 +82,7 @@
 		<key>descripcion</key>
 		<string>Las Marcas</string>
 		<key>tip</key>
-		<string>Recuerda que el nombre de las marcas se escriben con MAYUSCULA al principio.</string>
+		<string>Recuerda que el nombre de las marcas se escriben con MAYÚSCULA al principio.</string>
 		<key>ejemplo1</key>
 		<string>Gatorade</string>
 		<key>ejemplo2</key>
@@ -154,7 +154,7 @@
 		<key>descripcion</key>
 		<string>Nombre de divinidades</string>
 		<key>tip</key>
-		<string>Recuerda que el nombre de las divinidades en las mitologias se escriben con MAYUSCULA al principio</string>
+		<string>Recuerda que el nombre de las divinidades en las mitologias se escriben con MAYÚSCULA al principio</string>
 		<key>ejemplo1</key>
 		<string>Zeus</string>
 		<key>ejemplo2</key>
@@ -193,9 +193,9 @@
 			<array>
 				<dict>
 					<key>pregunta</key>
-					<string>Segun los nordicos, _______ es el padre de todo .</string>
+					<string>Según los nórdicos, _______ es el padre de todo .</string>
 					<key>respuesta</key>
-					<string>Segun los nordicos, Odin es el padre de todo .</string>
+					<string>Según los nórdicos, Odin es el padre de todo .</string>
 					<key>opcion1</key>
 					<string>Odin</string>
 					<key>opcion2</key>
@@ -205,9 +205,9 @@
 				</dict>
 				<dict>
 					<key>pregunta</key>
-					<string>El dios _______ es muy importante para los hindues.</string>
+					<string>El dios _______ es muy importante para los hindúes.</string>
 					<key>respuesta</key>
-					<string>El dios Vishnu es muy importante para los hindues.</string>
+					<string>El dios Vishnu es muy importante para los hindúes.</string>
 					<key>opcion1</key>
 					<string>vishnu</string>
 					<key>opcion2</key>
@@ -224,13 +224,13 @@
 		<key>nombre</key>
 		<string>Regla 4</string>
 		<key>descripcion</key>
-		<string>Sustantivos y adjetivos de los nombres de instituciones</string>
+		<string>Sustantivos y adjetivos de los nombres de instituciones.</string>
 		<key>tip</key>
-		<string>Recuerda que los sustantivos y adjetivos de cualquier institucion se escriben con MAYUSCULAS al principio.</string>
+		<string>Recuerda que los sustantivos y adjetivos de cualquier institucion se escriben con MAYÚSCULA al principio.</string>
 		<key>ejemplo1</key>
-		<string>Policia Nacional Civil</string>
+		<string>Policía Nacional Civil</string>
 		<key>ejemplo2</key>
-		<string>Instituto Nacional de Migracion</string>
+		<string>Instituto Nacional de Migración</string>
 		<key>ejerciciosFacil</key>
 		<array>
 			<array>
@@ -265,9 +265,9 @@
 			<array>
 				<dict>
 					<key>pregunta</key>
-					<string>La Guardia ______ nos protege de amenzas constantes.</string>
+					<string>La Guardia ______ nos protege de amenazas constantes.</string>
 					<key>respuesta</key>
-					<string>La Guardia Civil nos protege de amenzas constantes.</string>
+					<string>La Guardia Civil nos protege de amenazas constantes.</string>
 					<key>opcion1</key>
 					<string>civil</string>
 					<key>opcion2</key>
@@ -277,9 +277,9 @@
 				</dict>
 				<dict>
 					<key>pregunta</key>
-					<string>El ______ de Mexico esta liderado por el presidente.</string>
+					<string>El ______ de México esta liderado por el presidente.</string>
 					<key>respuesta</key>
-					<string>El Gobierno de Mexico esta liderado por el presidente</string>
+					<string>El Gobierno de México esta liderado por el presidente.</string>
 					<key>opcion1</key>
 					<string>Gobierno</string>
 					<key>opcion2</key>
@@ -298,7 +298,7 @@
 		<key>descripcion</key>
 		<string>Festividades</string>
 		<key>tip</key>
-		<string>Recuerda que el nombre de las festividades se escriben con MAYUSCULAS al principio</string>
+		<string>Recuerda que el nombre de las festividades se escriben con MAYÚSCULA al principio</string>
 		<key>ejemplo1</key>
 		<string>Halloween</string>
 		<key>ejemplo2</key>
@@ -308,9 +308,9 @@
 			<array>
 				<dict>
 					<key>pregunta</key>
-					<string>_ia del Trabajo</string>
+					<string>_ía del Trabajo</string>
 					<key>respuesta</key>
-					<string>Dia del Trabajo</string>
+					<string>Día del Trabajo</string>
 					<key>opcion1</key>
 					<string>D</string>
 					<key>opcion2</key>
@@ -320,9 +320,9 @@
 				</dict>
 				<dict>
 					<key>pregunta</key>
-					<string>_ia de San Valentin</string>
+					<string>_ía de San Valentin</string>
 					<key>respuesta</key>
-					<string>Dia de San Valentin</string>
+					<string>Día de San Valentin</string>
 					<key>opcion1</key>
 					<string>d</string>
 					<key>opcion2</key>
@@ -341,23 +341,95 @@
 					<key>respuesta</key>
 					<string>El 15 de septiembre se celebra el Grito de Dolores</string>
 					<key>opcion1</key>
-					<string>civil</string>
+					<string>grito</string>
 					<key>opcion2</key>
-					<string>Civil</string>
+					<string>Grito</string>
 					<key>opcionCorrecta</key>
-					<string>Civil</string>
+					<string>Grito</string>
 				</dict>
 				<dict>
 					<key>pregunta</key>
 					<string>En ______ viene Santa a dejarnos regalos.</string>
 					<key>respuesta</key>
-					<string>En Navidad viene a Santa a dejarnos regalos</string>
+					<string>En Navidad viene a Santa a dejarnos regalos.</string>
 					<key>opcion1</key>
 					<string>Navidad</string>
 					<key>opcion2</key>
 					<string>navidad</string>
 					<key>opcionCorrecta</key>
 					<string>Navidad</string>
+				</dict>
+			</array>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>5</string>
+		<key>nombre</key>
+		<string>Regla 5</string>
+		<key>descripcion</key>
+		<string>Publicaciones Periódicas</string>
+		<key>tip</key>
+		<string>Recuerda que el nombre de las publicaciones periódicas se escriben con MAYÚSCULA al principio</string>
+		<key>ejemplo1</key>
+		<string>La revista Qué Leer</string>
+		<key>ejemplo2</key>
+		<string>El boletín informativo Miércoles de Salud Pública</string>
+		<key>ejerciciosFacil</key>
+		<array>
+			<array>
+				<dict>
+					<key>pregunta</key>
+					<string>La revista _ué _eer</string>
+					<key>respuesta</key>
+					<string>La revista Qué Leer</string>
+					<key>opcion1</key>
+					<string>Q L</string>
+					<key>opcion2</key>
+					<string>q l</string>
+					<key>opcionCorrecta</key>
+					<string>Q L</string>
+				</dict>
+				<dict>
+					<key>pregunta</key>
+					<string>El boletín _iércoles</string>
+					<key>respuesta</key>
+					<string>El boletín Miércoles</string>
+					<key>opcion1</key>
+					<string>m</string>
+					<key>opcion2</key>
+					<string>M</string>
+					<key>opcionCorrecta</key>
+					<string>M</string>
+				</dict>
+			</array>
+		</array>
+		<key>ejerciciosDificil</key>
+		<array>
+			<array>
+				<dict>
+					<key>pregunta</key>
+					<string>Más tarde leyó la colección _________________________________</string>
+					<key>respuesta</key>
+					<string>Más tarde leyó la colección Clásicos de la Novela Policíaca</string>
+					<key>opcion1</key>
+					<string>clásicos de la novela policíaca</string>
+					<key>opcion2</key>
+					<string>Clásicos de la Novela Policíaca</string>
+					<key>opcionCorrecta</key>
+					<string>Clásicos de la Novela Policíaca</string>
+				</dict>
+				<dict>
+					<key>pregunta</key>
+					<string>Encontré información en el periódico ________</string>
+					<key>respuesta</key>
+					<string>Encontré información en el periódico El País</string>
+					<key>opcion1</key>
+					<string>El País</string>
+					<key>opcion2</key>
+					<string>el país</string>
+					<key>opcionCorrecta</key>
+					<string>El País</string>
 				</dict>
 			</array>
 		</array>

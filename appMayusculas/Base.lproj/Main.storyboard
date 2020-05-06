@@ -51,6 +51,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Créditos"/>
+                                <connections>
+                                    <segue destination="ezC-cx-XVX" kind="show" id="9aD-8e-30G"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -66,6 +69,66 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1077.5999999999999" y="138.98050974512745"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jge-ha-yzc">
+            <objects>
+                <viewController id="ezC-cx-XVX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3Jy-NM-n6V">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.34999999999999998" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pngguru.com" translatesAutoresizingMaskIntoConstraints="NO" id="cOq-Mj-YyB">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Desarrolladores:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dWr-hI-Sj9">
+                                <rect key="frame" x="72" y="157" width="231" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="34"/>
+                                <color key="highlightedColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LIR-Uo-n7t">
+                                <rect key="frame" x="110" y="63" width="163" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Créditos">
+                                        <attributes>
+                                            <font key="NSFont" size="48" name=".SFNSDisplay"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="person.crop.rectangle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Nj7-I0-uQ3">
+                                <rect key="frame" x="16" y="209" width="111" height="116"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Daniel Castro Juárez                              A01089938                  ITC" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hSg-y0-xjv">
+                                <rect key="frame" x="135" y="208" width="224" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="cOq-Mj-YyB" firstAttribute="trailing" secondItem="XJS-AT-aLW" secondAttribute="trailing" id="aUN-RC-OG7"/>
+                            <constraint firstItem="cOq-Mj-YyB" firstAttribute="leading" secondItem="XJS-AT-aLW" secondAttribute="leading" id="cRU-fb-DqQ"/>
+                            <constraint firstItem="cOq-Mj-YyB" firstAttribute="bottom" secondItem="XJS-AT-aLW" secondAttribute="bottom" id="hFa-8I-pHD"/>
+                            <constraint firstItem="cOq-Mj-YyB" firstAttribute="top" secondItem="XJS-AT-aLW" secondAttribute="top" id="wt5-Su-4vx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="XJS-AT-aLW"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="jzE-qg-uVs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F3t-8d-2Oq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1085.5999999999999" y="926.98650674662679"/>
         </scene>
         <!--View Controller Practica-->
         <scene sceneID="RNG-G8-Cw4">
@@ -1022,6 +1085,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="person.crop.rectangle.fill" catalog="system" width="64" height="46"/>
+        <image name="pngguru.com" width="500" height="500"/>
         <image name="rulesImage" width="1024" height="383"/>
     </resources>
 </document>

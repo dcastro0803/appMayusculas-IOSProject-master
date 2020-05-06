@@ -10,7 +10,7 @@
 		<key>descripcion</key>
 		<string>Los nombres comunes</string>
 		<key>tip</key>
-		<string>Recuerda que los nombres comunes se escriben con MINUSCULAS al principio.</string>
+		<string>Recuerda que los nombres comunes se escriben con MINÚSCULA al principio.</string>
 		<key>ejemplo1</key>
 		<string>perro</string>
 		<key>ejemplo2</key>
@@ -70,6 +70,294 @@
 					<string>silla</string>
 					<key>opcionCorrecta</key>
 					<string>silla</string>
+				</dict>
+			</array>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>2</string>
+		<key>nombre</key>
+		<string>Regla 2</string>
+		<key>descripcion</key>
+		<string>Los gentilicios</string>
+		<key>tip</key>
+		<string>Recuerda que los gentilicios se escriben con MINÚSCULA al principio.</string>
+		<key>ejemplo1</key>
+		<string>mexicano</string>
+		<key>ejemplo2</key>
+		<string>ruso</string>
+		<key>ejerciciosFacil</key>
+		<array>
+			<array>
+				<dict>
+					<key>pregunta</key>
+					<string>_exicano</string>
+					<key>respuesta</key>
+					<string>mexicano</string>
+					<key>opcion1</key>
+					<string>M</string>
+					<key>opcion2</key>
+					<string>m</string>
+					<key>opcionCorrecta</key>
+					<string>m</string>
+				</dict>
+				<dict>
+					<key>pregunta</key>
+					<string>_uso</string>
+					<key>respuesta</key>
+					<string>ruso</string>
+					<key>opcion1</key>
+					<string>R</string>
+					<key>opcion2</key>
+					<string>r</string>
+					<key>opcionCorrecta</key>
+					<string>r</string>
+				</dict>
+			</array>
+		</array>
+		<key>ejerciciosDificil</key>
+		<array>
+			<array>
+				<dict>
+					<key>pregunta</key>
+					<string>El _________ ganó.</string>
+					<key>respuesta</key>
+					<string>El argentino ganó.</string>
+					<key>opcion1</key>
+					<string>Argentino</string>
+					<key>opcion2</key>
+					<string>argentino</string>
+					<key>opcionCorrecta</key>
+					<string>argentino</string>
+				</dict>
+				<dict>
+					<key>pregunta</key>
+					<string>El _________ juega fútbol</string>
+					<key>respuesta</key>
+					<string>El brasileño juega fútbol</string>
+					<key>opcion1</key>
+					<string>Brasileño</string>
+					<key>opcion2</key>
+					<string>brasileño</string>
+					<key>opcionCorrecta</key>
+					<string>brasileño</string>
+				</dict>
+			</array>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>3</string>
+		<key>nombre</key>
+		<string>Regla 3</string>
+		<key>descripcion</key>
+		<string>Los días de la semana</string>
+		<key>tip</key>
+		<string>Recuerda que los días de la semana se escriben con MINÚSCULA al principio.</string>
+		<key>ejemplo1</key>
+		<string>lunes</string>
+		<key>ejemplo2</key>
+		<string>sábado</string>
+		<key>ejerciciosFacil</key>
+		<array>
+			<array>
+				<dict>
+					<key>pregunta</key>
+					<string>_unes</string>
+					<key>respuesta</key>
+					<string>lunes</string>
+					<key>opcion1</key>
+					<string>L</string>
+					<key>opcion2</key>
+					<string>l</string>
+					<key>opcionCorrecta</key>
+					<string>l</string>
+				</dict>
+				<dict>
+					<key>pregunta</key>
+					<string>_ábado</string>
+					<key>respuesta</key>
+					<string>sábado</string>
+					<key>opcion1</key>
+					<string>S</string>
+					<key>opcion2</key>
+					<string>s</string>
+					<key>opcionCorrecta</key>
+					<string>s</string>
+				</dict>
+			</array>
+		</array>
+		<key>ejerciciosDificil</key>
+		<array>
+			<array>
+				<dict>
+					<key>pregunta</key>
+					<string>Ya es ________</string>
+					<key>respuesta</key>
+					<string>Ya es viernes</string>
+					<key>opcion1</key>
+					<string>Viernes</string>
+					<key>opcion2</key>
+					<string>viernes</string>
+					<key>opcionCorrecta</key>
+					<string>viernes</string>
+				</dict>
+				<dict>
+					<key>pregunta</key>
+					<string>El _______ hay descanso</string>
+					<key>respuesta</key>
+					<string>El sábado hay descanso</string>
+					<key>opcion1</key>
+					<string>Sábado</string>
+					<key>opcion2</key>
+					<string>sábado</string>
+					<key>opcionCorrecta</key>
+					<string>sábado</string>
+				</dict>
+			</array>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>4</string>
+		<key>nombre</key>
+		<string>Regla 4</string>
+		<key>descripcion</key>
+		<string>Los meses</string>
+		<key>tip</key>
+		<string>Recuerda que los meses se escriben con MINÚSCULA al principio.</string>
+		<key>ejemplo1</key>
+		<string>agosto</string>
+		<key>ejemplo2</key>
+		<string>diciembre</string>
+		<key>ejerciciosFacil</key>
+		<array>
+			<array>
+				<dict>
+					<key>pregunta</key>
+					<string>_gosto</string>
+					<key>respuesta</key>
+					<string>agosto</string>
+					<key>opcion1</key>
+					<string>A</string>
+					<key>opcion2</key>
+					<string>a</string>
+					<key>opcionCorrecta</key>
+					<string>a</string>
+				</dict>
+				<dict>
+					<key>pregunta</key>
+					<string>_iciembre</string>
+					<key>respuesta</key>
+					<string>diciembre</string>
+					<key>opcion1</key>
+					<string>D</string>
+					<key>opcion2</key>
+					<string>d</string>
+					<key>opcionCorrecta</key>
+					<string>d</string>
+				</dict>
+			</array>
+		</array>
+		<key>ejerciciosDificil</key>
+		<array>
+			<array>
+				<dict>
+					<key>pregunta</key>
+					<string>En __________ siempre se festeja en grande</string>
+					<key>respuesta</key>
+					<string>En diciembre siempre se festeja en grande</string>
+					<key>opcion1</key>
+					<string>Diciembre</string>
+					<key>opcion2</key>
+					<string>diciembre</string>
+					<key>opcionCorrecta</key>
+					<string>diciembre</string>
+				</dict>
+				<dict>
+					<key>pregunta</key>
+					<string>El mes de _nero es el más largo</string>
+					<key>respuesta</key>
+					<string>El mes de enero es el más largo</string>
+					<key>opcion1</key>
+					<string>Enero</string>
+					<key>opcion2</key>
+					<string>enero</string>
+					<key>opcionCorrecta</key>
+					<string>enero</string>
+				</dict>
+			</array>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>5</string>
+		<key>nombre</key>
+		<string>Regla 5</string>
+		<key>descripcion</key>
+		<string>Las estaciones del año</string>
+		<key>tip</key>
+		<string>Recuerda que las estaciones del año se escriben con MINÚSCULA al principio.</string>
+		<key>ejemplo1</key>
+		<string>primavera</string>
+		<key>ejemplo2</key>
+		<string>verano</string>
+		<key>ejerciciosFacil</key>
+		<array>
+			<array>
+				<dict>
+					<key>pregunta</key>
+					<string>_rimavera</string>
+					<key>respuesta</key>
+					<string>primavera</string>
+					<key>opcion1</key>
+					<string>P</string>
+					<key>opcion2</key>
+					<string>p</string>
+					<key>opcionCorrecta</key>
+					<string>p</string>
+				</dict>
+				<dict>
+					<key>pregunta</key>
+					<string>_erano</string>
+					<key>respuesta</key>
+					<string>verano</string>
+					<key>opcion1</key>
+					<string>V</string>
+					<key>opcion2</key>
+					<string>v</string>
+					<key>opcionCorrecta</key>
+					<string>v</string>
+				</dict>
+			</array>
+		</array>
+		<key>ejerciciosDificil</key>
+		<array>
+			<array>
+				<dict>
+					<key>pregunta</key>
+					<string>El _______ siempre es muy caliente</string>
+					<key>respuesta</key>
+					<string>El verano siempre es muy caliente</string>
+					<key>opcion1</key>
+					<string>Verano</string>
+					<key>opcion2</key>
+					<string>verano</string>
+					<key>opcionCorrecta</key>
+					<string>verano</string>
+				</dict>
+				<dict>
+					<key>pregunta</key>
+					<string>El ________ es muy largo</string>
+					<key>respuesta</key>
+					<string>El invierno es muy largo</string>
+					<key>opcion1</key>
+					<string>Invierno</string>
+					<key>opcion2</key>
+					<string>invierno</string>
+					<key>opcionCorrecta</key>
+					<string>invierno</string>
 				</dict>
 			</array>
 		</array>

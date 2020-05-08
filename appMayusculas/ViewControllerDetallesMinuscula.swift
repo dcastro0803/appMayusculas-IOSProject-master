@@ -16,6 +16,9 @@ class ViewControllerDetallesMinuscula: UIViewController {
     @IBOutlet weak var lEjemplo1: UILabel!
     @IBOutlet weak var lEjemplo2: UILabel!
     
+    @IBOutlet weak var lbTip: UILabel!
+    
+    
     // Check if doing a class for the exercise is good
     
     // Do a plist file for Reglas mayusculas an other for reglas minusculas
@@ -36,7 +39,7 @@ class ViewControllerDetallesMinuscula: UIViewController {
         Descripcion.text = dicDatos["descripcion"] as? String
         lEjemplo1.text = dicDatos["ejemplo1"] as? String
         lEjemplo2.text = dicDatos["ejemplo2"] as? String
-        
+        lbTip.text = dicDatos["tip"] as? String
     }
     
 

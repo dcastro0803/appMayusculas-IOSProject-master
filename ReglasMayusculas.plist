@@ -364,9 +364,9 @@
 	</dict>
 	<dict>
 		<key>id</key>
-		<string>5</string>
+		<string>6</string>
 		<key>nombre</key>
-		<string>Regla 5</string>
+		<string>Regla 6</string>
 		<key>descripcion</key>
 		<string>Publicaciones Periódicas</string>
 		<key>tip</key>
@@ -430,6 +430,246 @@
 					<string>el país</string>
 					<key>opcionCorrecta</key>
 					<string>El País</string>
+				</dict>
+			</array>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>7</string>
+		<key>nombre</key>
+		<string>Regla 7</string>
+		<key>descripcion</key>
+		<string>Nombres de organismos públicos y privados</string>
+		<key>tip</key>
+		<string>Recuerda que el nombre de organismos públicos y privados se escriben con MAYÚSCULA al principio</string>
+		<key>ejemplo1</key>
+		<string>Cámara de Senadores</string>
+		<key>ejemplo2</key>
+		<string>Comisión Nacional de Derechos Humanos</string>
+		<key>ejerciciosFacil</key>
+		<array>
+			<array>
+				<dict>
+					<key>pregunta</key>
+					<string>_sociación _exicana de _ranquicias</string>
+					<key>respuesta</key>
+					<string>Asociación Mexicana de Franquicias</string>
+					<key>opcion1</key>
+					<string>A M F</string>
+					<key>opcion2</key>
+					<string>a m f</string>
+					<key>opcionCorrecta</key>
+					<string>A M F</string>
+				</dict>
+				<dict>
+					<key>pregunta</key>
+					<string>_ámara de _enadores</string>
+					<key>respuesta</key>
+					<string>Cámara de Senadores</string>
+					<key>opcion1</key>
+					<string>c s</string>
+					<key>opcion2</key>
+					<string>C S</string>
+					<key>opcionCorrecta</key>
+					<string>C S</string>
+				</dict>
+			</array>
+		</array>
+		<key>ejerciciosDificil</key>
+		<array>
+			<array>
+				<dict>
+					<key>pregunta</key>
+					<string>El __________________________ es muy grande</string>
+					<key>respuesta</key>
+					<string>El Servicio de Administración Tributaria es muy grande</string>
+					<key>opcion1</key>
+					<string>servicio de administración tributaria</string>
+					<key>opcion2</key>
+					<string>Servicio de Administración Tributaria</string>
+					<key>opcionCorrecta</key>
+					<string>Servicio de Administración Tributaria</string>
+				</dict>
+				<dict>
+					<key>pregunta</key>
+					<string>La ____________________ tiene objetos muy raros</string>
+					<key>respuesta</key>
+					<string>La Casa de Moneda de México tiene objetos muy raros</string>
+					<key>opcion1</key>
+					<string>Casa de Moneda de México</string>
+					<key>opcion2</key>
+					<string>casa de moneda de méxico</string>
+					<key>opcionCorrecta</key>
+					<string>Casa de Moneda de México</string>
+				</dict>
+			</array>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>8</string>
+		<key>nombre</key>
+		<string>Regla 8</string>
+		<key>descripcion</key>
+		<string>Abreviaturas, siglas y acrónimos</string>
+		<key>tip</key>
+		<string>Recuerda que el nombre de organismos públicos y privados se escriben con MAYÚSCULA al principio</string>
+		<key>ejemplo1</key>
+		<string>ingeniero - Ing.</string>
+		<key>ejemplo2</key>
+		<string>ONU</string>
+		<key>ejerciciosFacil</key>
+		<array>
+			<array>
+				<dict>
+					<key>pregunta</key>
+					<string>___</string>
+					<key>respuesta</key>
+					<string>ONU</string>
+					<key>opcion1</key>
+					<string>ONU</string>
+					<key>opcion2</key>
+					<string>onu</string>
+					<key>opcionCorrecta</key>
+					<string>ONU</string>
+				</dict>
+				<dict>
+					<key>pregunta</key>
+					<string>_________</string>
+					<key>respuesta</key>
+					<string>UNICEF</string>
+					<key>opcion1</key>
+					<string>unicef</string>
+					<key>opcion2</key>
+					<string>UNICEF</string>
+					<key>opcionCorrecta</key>
+					<string>UNICEF</string>
+				</dict>
+				<dict>
+					<key>pregunta</key>
+					<string>_ng.</string>
+					<key>respuesta</key>
+					<string>Ing.</string>
+					<key>opcion1</key>
+					<string>ing.</string>
+					<key>opcion2</key>
+					<string>Ing.</string>
+					<key>opcionCorrecta</key>
+					<string>Ing.</string>
+				</dict>
+				<dict>
+					<key>pregunta</key>
+					<string>_r.</string>
+					<key>respuesta</key>
+					<string>Sr.</string>
+					<key>opcion1</key>
+					<string>sr.</string>
+					<key>opcion2</key>
+					<string>Sr.</string>
+					<key>opcionCorrecta</key>
+					<string>Sr.</string>
+				</dict>
+			</array>
+		</array>
+		<key>ejerciciosDificil</key>
+		<array>
+			<array>
+				<dict>
+					<key>pregunta</key>
+					<string>La ____ provee electricidad</string>
+					<key>respuesta</key>
+					<string>La CFE  provee electricidad</string>
+					<key>opcion1</key>
+					<string>cfe</string>
+					<key>opcion2</key>
+					<string>CFE</string>
+					<key>opcionCorrecta</key>
+					<string>CFE</string>
+				</dict>
+				<dict>
+					<key>pregunta</key>
+					<string>El ____ Juan nos ayuda en la casa</string>
+					<key>respuesta</key>
+					<string>El Sr. Juan nos ayuda en la casa</string>
+					<key>opcion1</key>
+					<string>Sr.</string>
+					<key>opcion2</key>
+					<string>sr.</string>
+					<key>opcionCorrecta</key>
+					<string>Sr.</string>
+				</dict>
+			</array>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>9</string>
+		<key>nombre</key>
+		<string>Regla 9</string>
+		<key>descripcion</key>
+		<string>símbolos químicos y nombres científicos</string>
+		<key>tip</key>
+		<string>Recuerda que los símbolos químicos y nombres científicos se escriben con MAYÚSCULA al principio</string>
+		<key>ejemplo1</key>
+		<string>Canis lupus</string>
+		<key>ejemplo2</key>
+		<string>Pt - Platino</string>
+		<key>ejerciciosFacil</key>
+		<array>
+			<array>
+				<dict>
+					<key>pregunta</key>
+					<string>_anis _upus</string>
+					<key>respuesta</key>
+					<string>Canis lupus</string>
+					<key>opcion1</key>
+					<string>C l</string>
+					<key>opcion2</key>
+					<string>c l</string>
+					<key>opcionCorrecta</key>
+					<string>C l</string>
+				</dict>
+				<dict>
+					<key>pregunta</key>
+					<string>_elio</string>
+					<key>respuesta</key>
+					<string>Helio</string>
+					<key>opcion1</key>
+					<string>h</string>
+					<key>opcion2</key>
+					<string>H</string>
+					<key>opcionCorrecta</key>
+					<string>H</string>
+				</dict>
+			</array>
+		</array>
+		<key>ejerciciosDificil</key>
+		<array>
+			<array>
+				<dict>
+					<key>pregunta</key>
+					<string>El _________ es un elemento químico importante</string>
+					<key>respuesta</key>
+					<string>El Oxígeno es un elemento químico importante</string>
+					<key>opcion1</key>
+					<string>oxígeno</string>
+					<key>opcion2</key>
+					<string>Oxígeno</string>
+					<key>opcionCorrecta</key>
+					<string>Oxígeno</string>
+				</dict>
+				<dict>
+					<key>pregunta</key>
+					<string>El jaguar es conocido tambien como ______________</string>
+					<key>respuesta</key>
+					<string>El jaguar es conocido tambien como Felidae</string>
+					<key>opcion1</key>
+					<string>Felidae</string>
+					<key>opcion2</key>
+					<string>felidae</string>
+					<key>opcionCorrecta</key>
+					<string>Felidae</string>
 				</dict>
 			</array>
 		</array>

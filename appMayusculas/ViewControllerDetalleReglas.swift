@@ -21,6 +21,9 @@ class ViewControllerDetalleReglas: UIViewController {
     
     @IBOutlet weak var lbEjemplo2: UILabel!
     
+    @IBOutlet weak var lbTip: UILabel!
+    
+    
     
     // Check if doing a class for the exercise is good
     
@@ -44,7 +47,7 @@ class ViewControllerDetalleReglas: UIViewController {
         lbDescripcion.text = dicDatos["descripcion"] as? String
         lbEjemplo1.text = dicDatos["ejemplo1"] as? String
         lbEjemplo2.text = dicDatos["ejemplo2"] as? String
-        
+        lbTip.text = dicDatos["tip"] as? String
         // Do any additional setup after loading the view.
     }
     
